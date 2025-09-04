@@ -1,1 +1,12 @@
-
+gensim==4.3.3
+numpy==1.26.4
+pandas==2.2.3
+scikit_learn==1.6.1
+nltk==3.9.1
+Sastrawi==1.0.1
+matplotlib==3.10.1
+seaborn==0.13.2
+streamlit>=1.33,<2
+requests==2.32.3
+google_play_scraper==1.2.7
+tensorflow-cpu==2.16.1
