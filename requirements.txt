@@ -1,14 +1,17 @@
+# NLP / classic ML
 gensim==4.3.3
-google_play_scraper==1.2.7
-matplotlib==3.10.1
-nltk==3.9.1
-numpy==2.2.4
+numpy==1.26.4          # supports Py3.11, compatible with gensim
 pandas==2.2.3
-Requests==2.32.3
-Sastrawi==1.0.1
-Sastrawi==1.0.1
 scikit_learn==1.6.1
+nltk==3.9.1
+Sastrawi==1.0.1
+
+# viz / app
+matplotlib==3.10.1
 seaborn==0.13.2
-tensorflow==2.16.1
-tensorflow_intel==2.16.1
-wordcloud==1.9.4
+streamlit>=1.33,<2     # if you haven’t pinned streamlit yet
+requests==2.32.3
+google_play_scraper==1.2.7
+
+# deep learning (CPU only on Streamlit Cloud)
+tensorflow-cpu==2.16.1
